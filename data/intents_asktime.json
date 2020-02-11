@@ -1,0 +1,30 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hallo", "Guten Tag", "Guten Morgen", "Guten Abend", "Moin"],
+         "responses": ["Hallo, wie kann ich helfen?", "Guten Tag, wie kann ich helfen?"]
+        },
+        {"tag": "farewell",
+         "patterns": ["Bye", "Tschuess", "Tschoe", "Auf Wiedersehen"],
+         "responses": [".actQuit"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Danke", "Vielen Dank"],
+         "responses": ["Freut mich das ich helfen konnte.", "Kein Problem!"]
+        },
+        {"tag": "time",
+         "patterns": ["Wie viel Uhr ist es?", "Welche Uhrzeit ist es?", "Kannst du mir die Uhrzeit sagen?",
+                      "Welche Uhrzeit haben wir?"],
+         "responses": [".actTime"]
+        },
+        {"tag": "date",
+         "patterns": ["Welches Datum ist es?", "Welcher Tag ist heute?", "Der wievielte ist heute?",
+                      "Welchen Tag ist haben wir?", "Den wievielten haben wir?"],
+         "responses": [".actDate"]
+        },
+        {"tag": "life_sense",
+         "patterns": ["Was ist der Sinn des Lebens?", "Welchen Sinn hat das Leben?", "Warum lebe ich?",
+                      "Gibt es einen Grund fuers Leben?"],
+         "responses": ["42, vergiss dein Handtuch nicht."]
+        }
+   ]
+}

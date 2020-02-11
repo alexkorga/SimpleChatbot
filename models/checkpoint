@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Python Projects\\IntelligentUserAsisstant\\models\\asktime.tflearn"
+all_model_checkpoint_paths: "E:\\Python Projects\\IntelligentUserAsisstant\\models\\asktime.tflearn"
